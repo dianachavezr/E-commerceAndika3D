@@ -1,0 +1,55 @@
+.cardsHome {
+  width: 100vw;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.cardHome {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  padding: 20px;
+  margin: 5px auto;
+  box-shadow: -10px 10px 25px var(--gray);
+  border-radius: 5px;
+  font-size: 0.8rem;
+}
+.cardHomeDescription {
+  margin-left: 20px;
+}
+
+@media (min-width: 768px) {
+  .cardsHome {
+    display: flex;
+    margin-bottom: 40px;
+  }
+
+  .cardHome {
+    width: 30%;
+    height: 160px;
+    margin: 5px;
+  }
+}
+
+@media (min-width: 1024px) {
+
+
+  .cardHome {
+    width: 28%;
+    font-size: 0.8rem;
+    height: 160px;
+    padding: 0 40px;
+   
+  }
+}
+
+@media (min-width: 1200px) {
+  .cardHome {
+    width: 27%;
+    margin: 0 25px;
+    font-size: 1rem;
+  }
+}

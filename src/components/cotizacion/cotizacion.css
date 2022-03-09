@@ -1,0 +1,45 @@
+.cotizacionContainer {
+  width: 100vw;
+  height: auto;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  padding: 70px 10px;
+}
+
+.cotizacionBox {
+  width: 90%;
+  margin: auto;
+  padding: 20px;
+  font-size: 0.8rem;
+}
+
+.cotizacionTitle {
+  color: var(--blue);
+  text-align: center;
+  font-size: 1rem;
+}
+.cotizacionParagraph {
+  text-align: center;
+}
+.whatsappImg {
+  width: 40px;
+  margin-left: 10px;
+}
+
+.whatsappParagraph {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .cotizacionBox {
+    width: 65%;
+    font-size: 0.9rem;
+    padding: 20px 50px;
+  }
+  .cotizacionTitle {
+    font-size: 1.2rem;
+  }
+}

@@ -1,0 +1,56 @@
+.quienesSomosContainer {
+  width: 95vw;
+  height: auto;
+  display: block;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px 10px;
+  box-shadow: -10px 10px 25px var(--gray);
+  margin: auto;
+  border-radius: 10px;
+}
+
+.quienesSomosParragraphBox,
+.quienesSomosImageBox {
+  width: 100%;
+  padding: 20px;
+}
+.quienesSomosTitle {
+  font-size: 1.5rem;
+  color: var(--blue);
+}
+.quienesSomosParagraph {
+  font-size: 1rem;
+}
+
+.quienesSomosImage {
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .quienesSomosContainer {
+    display: flex;
+    padding: 20px;
+  }
+  .quienesSomosParragraphBox {
+    width: 50%;
+    padding: 50px 30px 10px 50px;
+  }
+
+  .quienesSomosImageBox {
+    width: 50%;
+    padding: 30px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .quienesSomosContainer {
+    margin-bottom: 50px;
+  }
+  .quienesSomosTitle {
+    font-size: 3rem !important;
+  }
+  .quienesSomosParagraph {
+    font-size: 1.2rem;
+  }
+}

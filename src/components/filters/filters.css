@@ -1,0 +1,36 @@
+.filtersContainer{
+    width: 100vw;
+    background-color: red;
+    display: flex;
+    flex-direction:column-reverse;
+    justify-content: center; 
+    align-items: center;
+    padding: 20px;
+}
+.filtersTitle{
+    color: var(--blue);
+    font-weight: 600;
+    margin-left: 10%;
+}
+.filtersSelect{
+    width: 100%;
+    font-size: 0.8rem;
+    padding: 10px 7px;
+}
+
+
+@media (min-width: 768px) {
+    .filtersContainer{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: yellow;
+        flex-direction: initial;    
+    }
+    .filtersSelect{
+        width: 100%;
+        font-size: 1.5rem;
+
+    }
+    
+}

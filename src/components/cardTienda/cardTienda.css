@@ -1,0 +1,49 @@
+.cardTiendaContainer {
+  width: 100vw;
+  background-color: greenyellow;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  gap: 20px;
+  
+}
+
+.cardTienda {
+  background-color: red;
+  width: 350px;
+  text-align: center;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 1px 1px 1px 0px var(--gray);
+  
+}
+
+.cardTiendaImg {
+  display: block;
+  width: 70%;
+  height: 100%;
+  object-fit: cover;
+  margin: auto;
+  background-color: yellow;
+  margin-bottom: 30px;
+}
+
+.cardTiendaTitle {
+  color: var(--blue);
+}
+.cardTiendaParagraph {
+  font-size: 0.8rem;
+  padding-bottom: 10px;
+  
+}
+.cardTiendaPrice{
+  padding-bottom: 30px;
+}
+
+@media (min-width: 768px) {
+  .cardTiendaContainer {
+    display: flex;
+  }
+}
