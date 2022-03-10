@@ -6,6 +6,7 @@ import Tienda from "./pages/Tienda";
 import ResumenCompra from "./pages/ResumenCompra";
 import Producto from "./pages/Producto";
 import Quienes from "./pages/Quienes";
+import {CartProvider} from "react-use-cart"
 
 
 function App() {
@@ -13,7 +14,8 @@ function App() {
     <div className="App">
 
       <>
-
+      <CartProvider>
+  
       <Routes>        
         <Route exact path="/" element={<Home />} />
         <Route path="/quienes" element={<Quienes />} />
@@ -21,9 +23,12 @@ function App() {
         <Route path="/carrito" element={<ResumenCompra />} />
         <Route path="/product" element={<Producto />} />
       </Routes>
- 
+      </CartProvider>
+      <Footer />
    
       </>
+      
+     
     </div>
   );
 }

@@ -2,7 +2,7 @@
     background-color: red;
     width: 100vw;
     height: auto;
-    padding: 50px 80px;
+    padding: 50px ;
     text-align: center;
 }
 .caroulselHomeContainerTitle{
@@ -19,6 +19,7 @@
   }
   
   .swiper-slide {
+
     text-align: center;
     font-size: 18px;
     background: green;
@@ -38,7 +39,7 @@
     -webkit-align-items: center;
     align-items: center;
     box-shadow: -10px 10px 25px var(--gray);
-    padding: 40px;
+    padding: 40px 20px;
   }
   
   .swiper-slide img {
@@ -65,13 +66,14 @@
   }
   .btnVer{
     border-radius: 50px;
-    padding: 0.7rem 5em;
+    padding: 0.5rem 5em;
     background-color: var(--orange);
     border:none;
     cursor:pointer;
     box-shadow: 1px 1px 1px 0px var(--gray);
     color: var(--white);
-    font-size: 0.8rem;
+    font-size: 0.6rem;
+    margin-bottom: 20px
   }
 
 
@@ -83,8 +85,14 @@
 
 
 @media (min-width: 768px) {
+  .caroulselHomeContainer{
+    padding: 50px 80px;
+  }
 .swiper-slide{
   width: 100px;
+}
+.btnVer{
+  font-size: 0.8rem;
 }
 }
 

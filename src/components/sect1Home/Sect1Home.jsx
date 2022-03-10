@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from "react";
+import React, {  useEffect, useRef } from "react";
 import "./sect1Home.css";
 import Dog from "../../assets/dogAngel.png";
 import Dogs from "../../assets/dogs.png";
@@ -6,8 +6,8 @@ import Dream from "../../assets/dream.png";
 import { NavLink } from 'react-router-dom';
 
 const Sect1Home = () => {
-  const slideshow = useRef(null);
-  const intervalSlideShow = useRef(null);
+  const slideshow = useRef();
+  const intervalSlideShow = useRef();
 
   const next = () => {
     //To check out if slide has children

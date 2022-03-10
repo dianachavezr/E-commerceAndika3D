@@ -6,19 +6,20 @@ import Sect1Home from "../components/sect1Home/Sect1Home";
 import CardsHome from "../components/cardsHome/CardsHome";
 import CarouselHome from "../components/carouselHome/CarouselHome";
 import Navbar from "../components/navbar/Navbar";
-import Footer from "../components/footer/Footer";
+
+import Sect1HomePrueba from "../components/sect1Home/Sect1HomePrueba";
 
 const Home = () => {
   return (
     <>
        <Navbar />    
-      <Sect1Home />
+      <Sect1HomePrueba />
       <CardsHome />
       <CarouselHome />
       <QuienesSomos />
       <NuestraEmpresa />
       <Cotizacion />
-      <Footer />
+ 
     </>
   );
 };

@@ -1,0 +1,89 @@
+.resumenCompraContainer {
+  width: 100vw;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.emptyCarContainer {
+  background-color: rgba(255, 127, 48, 0.3);
+  height: 45vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+.emptyCarTitle {
+  height: auto;
+  color: var(--blue);
+  text-align: center;
+}
+.emptyCarImg {
+  width: 250px;
+}
+
+.resumenCompraTableContainer {
+  overflow: scroll;
+  display: block;
+  width: 80%;
+  box-shadow: 1px 1px 5px var(--gray);
+  padding: 20px;
+  border-radius: 5px;
+  margin: 40px auto;
+}
+
+.resumenCompraTableTitle {
+  color: var(--blue);
+}
+.resumenCompraTableContainer th {
+  border-bottom: 1px solid var(--gray);
+
+  padding: 20px;
+}
+.resumenCompraTableContainer td {
+  border-bottom: 1px solid var(--gray);
+}
+
+.resumenCompraTableIcon img {
+  width: 20px;
+  margin: 3px;
+}
+
+.resumenCompraEnd {
+   width: 50%; 
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+  padding: 20px;
+  box-shadow: 1px 1px 5px var(--gray);
+  margin-bottom: 30px;
+  margin: auto;
+
+
+}
+
+.resumenCompraEndTitle {
+  color: var(--blue);
+  padding-bottom: 30px;
+}
+@media (min-width: 768px) {
+  .resumenCompraContainer {
+    display: flex;
+    flex-direction: column;
+  }
+  .resumenCompraTableContainer {
+    overflow: scroll;
+  }
+  .emptyCarContainer {
+    background-color: rgba(255, 127, 48, 0.3);
+    height: 68vh;
+  }
+  .resumenCompraTableContainer {
+    width: 90%;
+  }
+  .resumenCompraEnd {
+      width: 30%;
+  }
+
+}

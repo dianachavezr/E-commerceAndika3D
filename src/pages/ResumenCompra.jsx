@@ -1,13 +1,14 @@
 import React from 'react'
 import Navbar from '../components/navbar/Navbar'
-import Footer from '../components/footer/Footer'
+
+import ResumenCompraContainer from '../components/resumenCompra/ResumenCompraContainer.jsx'
 
 const ResumenCompra = () => {
   return (
     <div>
         <Navbar />
-      RESUMEN COMPRA
-      <Footer />
+      <ResumenCompraContainer />
+
     </div>
   )
 }
