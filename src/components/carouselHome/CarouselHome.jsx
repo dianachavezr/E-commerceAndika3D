@@ -1,5 +1,5 @@
 import React, { useRef, useState } from "react";
-import { NavLink } from 'react-router-dom';
+import { NavLink } from "react-router-dom";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 // Import Swiper styles
@@ -11,11 +11,18 @@ import "swiper/css/navigation";
 import { Autoplay, Pagination, Navigation } from "swiper";
 
 import "./carouselHome.css";
-import Keycup from "../../assets/keycup.png";
+import Keycup from "../../assets/keycup1.png";
 import DogTonge from "../../assets/dogTonge.png";
 import DogCombo from "../../assets/dogCombo.png";
-
-
+import MegaPetPerro from "../../assets/megapetPerro/megapetPerro8.png";
+import MegaPetGato from "../../assets/megapetGato/megapetGato13.png";
+import MegaPetConejo from "../../assets/megapetConejo/megapetConejo3.jpg";
+import Retrato3dPerro from "../../assets/retrato3dPerro/retratoPerro3.jpg";
+import MemoryPetPerro from "../../assets/memoryPetDog/memoryPet1.jpg";
+import ChiquiPetPerro from "../../assets/chiquipetPerro/chiquiPetPerro3.jpg";
+import ChiquiPetConejo from "../../assets/chiquipetConejo/chiquiPetConejo1.jpg";
+import ComboPerro1 from "../../assets/combo1Perro/comboPerro1.jpg";
+import ComboPerro5 from "../../assets/combo5Perro/comoPerro5.1.jpg";
 
 const CarouselHome = () => {
   return (
@@ -41,10 +48,10 @@ const CarouselHome = () => {
         slidesPerGroup={1}
         loop={true}
         loopFillGroupWithBlank={true}
-        pagination={{
+        /*pagination={{
           clickable: true,
         }}
-        /* autoplay={{
+         autoplay={{
             delay: 3000,
             disableOnInteraction: false,
           }}*/
@@ -53,119 +60,111 @@ const CarouselHome = () => {
         className="mySwiper"
       >
         <SwiperSlide>
-          <div className="slideImgBox">
-            <img src={Keycup} alt="" className="slideImg" />
+          <div className="slideContainer">
+            <div className="slideImgBox">
+              <img src={MegaPetConejo} alt="" className="slideImgCards" />
+            </div>
+            <h3 className="slideTitle">MegaPets</h3>
+            <div className="slideParagraphBox">
+              <p className="slideParagraph">
+                Escultura de animal de compañía, donde combinamos lo mejor de la
+                impresión 3D con la creación artística
+              </p>
+            </div>
+
+            <NavLink to="/tienda">
+              <button className="btnVer">Ver Más</button>
+            </NavLink>
           </div>
-          <h3 className="slideTitle">Keycaps</h3>
-          <p className="slideParagraph">
-            Dale un vistazo a nuestras colecciones de KeyCaps. Pregunta también
-            por diseños personalizados
-          </p>
-          <NavLink  to="/product"> 
-            <button className="btnVer">Ver Más</button>
-          </NavLink >
         </SwiperSlide>
         <SwiperSlide>
-          <div className="slideImgBox">
-            <img src={DogTonge} alt="" className="slideImg" />
+          <div className="slideContainer">
+            <div className="slideImgBox">
+              <img src={Retrato3dPerro} alt="" className="slideImgCards" />
+            </div>
+            <h3 className="slideTitle">Retratos 3D</h3>
+            <div className="slideParagraphBox">
+              <p className="slideParagraph">
+                Portaretrato de animales de compañía, donde replicamos la
+                cabecita de tu mejor amigo
+              </p>
+            </div>
+            <NavLink to="/tienda">
+              <button className="btnVer">Ver Más</button>
+            </NavLink>
           </div>
-          <h3 className="slideTitle">Accesorios Artísticos</h3>
-          <p className="slideParagraph">
-            Enamórate de nuestros accesorios artísticos con estilo y diseño
-            único
-          </p>
-          <NavLink to="/product"> 
-            <button className="btnVer">Ver Más</button>
-          </NavLink>
         </SwiperSlide>
+
         <SwiperSlide>
-          <div className="slideImgBox">
-            <img src={DogCombo} alt="" className="slideImg" />
+          <div className="slideContainer">
+            <div className="slideImgBox">
+              <img src={MemoryPetPerro} alt="" className="slideImgCards" />
+            </div>
+            <h3 className="slideTitle">Memory Pets</h3>
+            <div className="slideParagraphBox">
+              <p className="slideParagraph">
+                Memorial para plasmar los mejores momentos con tu mascota.
+              </p>
+            </div>
+            <NavLink to="/tienda">
+              <button className="btnVer">Ver Más</button>
+            </NavLink>
           </div>
-          <h3 className="slideTitle">MegaPets</h3>
-          <p className="slideParagraph">
-            Figuras totalmente personalizadas de tu Mascota
-          </p>
-          <NavLink to="/product"> 
-            <button className="btnVer">Ver Más</button>
-          </NavLink>
         </SwiperSlide>
+
         <SwiperSlide>
-          <div className="slideImgBox">
-            <img src={Keycup} alt="" className="slideImg" />
+          <div className="slideContainer">
+            <div className="slideImgBox">
+              <img src={ChiquiPetConejo} alt="" className="slideImgCards" />
+            </div>
+            <h3 className="slideTitle">Chiqui Pets</h3>
+            <div className="slideParagraphBox">
+              <p className="slideParagraph">
+                Accesorio con la carita de tu mejor amigo.
+              </p>
+            </div>
+            <NavLink to="/tienda">
+              <button className="btnVer">Ver Más</button>
+            </NavLink>
           </div>
-          <h3 className="slideTitle">Keycaps</h3>
-          <p className="slideParagraph">
-            Dale un vistazo a nuestras colecciones de KeyCaps. Pregunta también
-            por diseños personalizados
-          </p>
-          <NavLink to="/product"> 
-            <button className="btnVer">Ver Más</button>
-          </NavLink>
         </SwiperSlide>
+
         <SwiperSlide>
-          <div className="slideImgBox">
-            <img src={DogTonge} alt="" className="slideImg" />
+          <div className="slideContainer">
+            <div className="slideImgBox">
+              <img src={Keycup} alt="" className="slideImgCards" />
+            </div>
+            <h3 className="slideTitle">Keycaps</h3>
+            <div className="slideParagraphBox">
+              <p className="slideParagraph">
+                Dale un vistazo a nuestras colecciones de KeyCaps. Pregunta
+                también por diseños personalizados
+              </p>
+            </div>
+
+            <NavLink to="/tienda">
+              <button className="btnVer">Ver Más</button>
+            </NavLink>
           </div>
-          <h3 className="slideTitle">Accesorios Artísticos</h3>
-          <p className="slideParagraph">
-            Enamórate de nuestros accesorios artísticos con estilo y diseño
-            único
-          </p>
-          <NavLink to="/product"> 
-            <button className="btnVer">Ver Más</button>
-          </NavLink>
         </SwiperSlide>
+
         <SwiperSlide>
-          <div className="slideImgBox">
-            <img src={DogCombo} alt="" className="slideImg" />
+          <div className="slideContainer">
+            <div className="slideImgBox">
+              <img src={ComboPerro5} alt="" className="slideImgCards" />
+            </div>
+            <h3 className="slideTitle">Combos</h3>
+            <div className="slideParagraphBox">
+              <p className="slideParagraph">
+                Adquiere versiones variadas de tu mejor amigo.
+              </p>
+            </div>
+            <NavLink to="/tienda">
+              <button className="btnVer">Ver Más</button>
+            </NavLink>
           </div>
-          <h3 className="slideTitle">MegaPets</h3>
-          <p className="slideParagraph">
-            Figuras totalmente personalizadas de tu Mascota
-          </p>
-          <NavLink to="/product"> 
-            <button className="btnVer">Ver Más</button>
-          </NavLink>
         </SwiperSlide>
-        <SwiperSlide>
-          <div className="slideImgBox">
-            <img src={Keycup} alt="" className="slideImg" />
-          </div>
-          <h3 className="slideTitle">Keycaps</h3>
-          <p className="slideParagraph">
-            Dale un vistazo a nuestras colecciones de KeyCaps. Pregunta también
-            por diseños personalizados
-          </p>
-          <NavLink to="/product"> 
-            <button className="btnVer">Ver Más</button>
-          </NavLink>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div className="slideImgBox">
-            <img src={DogTonge} alt="" className="slideImg" />
-          </div>
-          <h3 className="slideTitle">Accesorios Artísticos</h3>
-          <p className="slideParagraph">
-            Enamórate de nuestros accesorios artísticos con estilo y diseño
-            único
-          </p>
-          <NavLink to="/product"> 
-            <button className="btnVer">Ver Más</button>
-          </NavLink>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div className="slideImgBox">
-            <img src={DogCombo} alt="" className="slideImg" />
-          </div>
-          <h3 className="slideTitle">MegaPets</h3>
-          <p className="slideParagraph">
-            Figuras totalmente personalizadas de tu Mascota
-          </p>
-          <NavLink to="/product"> 
-            <button className="btnVer">Ver Más</button>
-          </NavLink>
-        </SwiperSlide>
+       
       </Swiper>
     </div>
   );

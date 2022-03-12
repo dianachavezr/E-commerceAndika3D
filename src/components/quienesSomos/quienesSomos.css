@@ -8,6 +8,7 @@
   box-shadow: -10px 10px 25px var(--gray);
   margin: auto;
   border-radius: 10px;
+  margin-top: 15vh;
 }
 
 .quienesSomosParragraphBox,
@@ -31,6 +32,7 @@
   .quienesSomosContainer {
     display: flex;
     padding: 20px;
+    margin-top: 20vh;
   }
   .quienesSomosParragraphBox {
     width: 50%;
@@ -46,6 +48,7 @@
 @media (min-width: 1200px) {
   .quienesSomosContainer {
     margin-bottom: 50px;
+    margin-top: 30vh;
   }
   .quienesSomosTitle {
     font-size: 3rem !important;

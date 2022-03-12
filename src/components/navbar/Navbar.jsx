@@ -34,51 +34,81 @@ const Navbar = () => {
             <img src={Logo} />
           </NavLink>
         </div>
- 
+
         <div className={`navLinks ${clicked ? "active" : ""}`}>
-          <NavLink to="/">Inicio</NavLink>
-          <NavLink to="/quienes">Quienes somos</NavLink>
-          <NavLink to="/tienda">Tienda</NavLink>
+          <NavLink
+            style={({ isActive }) => ({
+              color: isActive ? "var(--orange)" : "var(--black)",
+            })}
+            to="/"
+          >
+            Inicio
+          </NavLink>
+          <NavLink
+            style={({ isActive }) => ({
+              color: isActive ? "var(--orange)" : "var(--black)",
+            })}
+            to="/quienes"
+          >
+            Quienes somos
+          </NavLink>
+          <NavLink
+            style={({ isActive }) => ({
+              color: isActive ? "var(--orange)" : "var(--black)",
+            })}
+            to="/tienda"
+          >
+            Tienda
+          </NavLink>
         </div>
 
         <div className="navHamburguer">
           <NavbarHamburguer clicked={clicked} handleClick={handleClick} />
         </div>
         <div>
-        <figure className=" image fade">
-          
-          <NavLink to="/carrito" style={{ textDecoration: "none" }}>
-            <h5 style={{ color: "var(--blue)" }} className="navArticles">
-              Artículos: {totalItems} ${cartTotal}
-            </h5>
-          </NavLink>
-          <figcaption>
-            <NavLink to="/carrito" style={{ textDecoration: "none", color: "var(--black" }} >
-              Ir al resumen del carrito
-              <div className="">
-               Artículos: {totalItems} <br/> ${cartTotal}
-               </div>
+          {/* To make resume box appear on hover*/}
+          <figure className=" image fade">
+            <NavLink to="/carrito" style={{ textDecoration: "none" }}>
+              <h5 style={{ color: "var(--blue)" }} className="navArticles">
+                Artículos: {totalItems} ${cartTotal} COP
+              </h5>
             </NavLink>
-          </figcaption>
+            <figcaption>
+              <NavLink
+              
+                to="/carrito"
+                style={{ textDecoration: "none", color: "var(--black" }}
+              >
+                Ir al resumen del carrito
+                <div className="">
+                  Artículos: {totalItems} <br /> ${cartTotal} COP
+                </div>
+              </NavLink>
+            </figcaption>
           </figure>
         </div>
-        
+        {/* To make resume box appear on hover*/}
         <figure className=" image fade">
-          <NavLink to="/carrito">
-            <img className="navBag" src={Bag} />
+          <NavLink 
+            style={({ isActive }) => ({
+              background: isActive ? 'var(--orange)' : 'transparent',
+            })}to="/carrito">
+            <img  className="navBag" src={Bag} />
           </NavLink>
           <figcaption>
-            <NavLink to="/carrito" style={{ textDecoration: "none", color: "var(--black" }} >
+            <NavLink
+              to="/carrito"
+              style={{ textDecoration: "none", color: "var(--black" }}
+            >
               Ir al resumen del carrito
               <div className="">
-               Artículos: {totalItems} <br/>  ${cartTotal}
-               </div>
+                Artículos: {totalItems} <br /> ${cartTotal} COP
+              </div>
             </NavLink>
           </figcaption>
         </figure>
-       
+
         <div className={`navBackground ${clicked ? "active" : ""}`}></div>
-     
       </nav>
     </div>
   );

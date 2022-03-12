@@ -7,17 +7,15 @@ import CardsHome from "../components/cardsHome/CardsHome";
 import CarouselHome from "../components/carouselHome/CarouselHome";
 import Navbar from "../components/navbar/Navbar";
 
-import Sect1HomePrueba from "../components/sect1Home/Sect1HomePrueba";
 
 const Home = () => {
   return (
     <>
        <Navbar />    
-      <Sect1HomePrueba />
+      <Sect1Home />
       <CardsHome />
       <CarouselHome />
-      <QuienesSomos />
-      <NuestraEmpresa />
+
       <Cotizacion />
  
     </>

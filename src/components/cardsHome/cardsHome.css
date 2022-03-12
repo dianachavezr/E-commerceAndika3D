@@ -20,6 +20,7 @@
   margin-left: 20px;
 }
 
+
 @media (min-width: 768px) {
   .cardsHome {
     display: flex;

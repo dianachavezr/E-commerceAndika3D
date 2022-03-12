@@ -6,6 +6,7 @@
     justify-content: center; 
     align-items: center;
     padding: 20px;
+    margin-top: 9vh;
 
 }
 .filtersTitle{
@@ -26,7 +27,8 @@
         justify-content: space-around;
         align-items: center;
         background-color: yellow;
-        flex-direction: initial;    
+        flex-direction: initial;
+        margin-top: 10vh;    
     }
     .filtersSelect{
         width: 100%;
@@ -34,4 +36,16 @@
 
     }
     
+}
+
+@media (min-width: 1024px) {
+    .filtersContainer{
+        margin-top: 11vh;    
+    }
+}
+
+@media (min-width: 1200px) {
+    .filtersContainer{
+        margin-top: 15vh;    
+    }
 }

@@ -77,8 +77,8 @@ const ResumenCompra = (props) => {
                     }
                   />
                 </td>
-                <td className="" >${item.price}</td>
-                <td className="" >${item.price*item.quantity}</td>
+                <td className="">${item.price}</td>
+                <td className="">${item.price * item.quantity}</td>
               </tr>
             );
           })}
@@ -87,7 +87,7 @@ const ResumenCompra = (props) => {
 
       <div className="resumenCompraEnd">
         <div className="resumenCompraEndTitle">
-          <h3 className="">Total a pagar:$ {cartTotal}</h3>
+          <h3 className="">Total a pagar:$ {cartTotal} COP</h3>
         </div>
         <div className="">
           <button className="btnVer" onClick={() => emptyCart()}>
