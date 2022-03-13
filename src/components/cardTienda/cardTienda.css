@@ -1,10 +1,9 @@
 .cardTienda {
-  background-color: red;
   width: 90%;
   text-align: center;
   border-radius: 10px;
   padding: 30px 10px;
-  box-shadow: 1px 1px 1px 0px var(--gray);
+  box-shadow: 1px 1px 1px 1px var(--gray);
   margin: auto;
 }
 
@@ -14,16 +13,20 @@
   height: 100%;
   object-fit: cover;
   margin: auto;
-  background-color: yellow;
+
   margin-bottom: 30px;
 }
 
 .cardTiendaTitle {
   color: var(--blue);
 }
-.cardTiendaParagraphBox {
-  background-color: yellow;
+.cardTiendaImgBox{
+  background-color: rgba(255, 127, 48, 0.2);
   padding: 20px;
+}
+.cardTiendaParagraphBox {
+  padding: 20px;
+
 }
 .cardTiendaParagraph {
   font-size: 0.8rem;
@@ -38,7 +41,7 @@
   background-color: var(--lightBlue);
   border: none;
   cursor: pointer;
-  box-shadow: 1px 1px 1px 0px var(--gray);
+  box-shadow: 1px 1px 1px 1px var(--gray);
   color: var(--white);
   font-size: 0.6rem;
 }
@@ -48,12 +51,11 @@
 }
 
 .cardTienda2 {
-  background-color: green;
   width: 100%;
   text-align: center;
   border-radius: 10px;
   padding: 20px;
-  box-shadow: 1px 1px 1px 0px var(--gray);
+  box-shadow: 1px 1px 1px 1px var(--gray);
   margin: auto;
 }
 .cardTienda2Title {
@@ -61,7 +63,6 @@
   font-size: 1.5rem;
 }
 .cardTienda2Box {
-  background-color: red;
   display: block;
   padding: 10px 20px;
 }
@@ -69,6 +70,8 @@
 .cardTienda2ImgBox {
   width: 50%;
   margin: auto;
+  background-color: rgba(255, 127, 48, 0.2);
+  padding: 20px;
 }
 .cardTienda2ParagraphBox {
   width: 100%;
@@ -86,7 +89,7 @@
 span {
   font-weight: bolder;
 }
-.cardTienda2Buttons{
+.cardTienda2Buttons {
   width: 70%;
   margin: auto;
 }
@@ -101,10 +104,8 @@ span {
     font-size: 2rem;
   }
   .cardTienda2Box {
-    background-color: red;
     display: flex;
     justify-content: center;
-
   }
   .cardTienda2Paragraph {
     font-size: 1rem;
@@ -113,10 +114,8 @@ span {
   .btnAdd {
     font-size: 0.8rem;
   }
-  .cardTienda2Buttons{
-  
+  .cardTienda2Buttons {
     width: 50%;
-
   }
 }
 

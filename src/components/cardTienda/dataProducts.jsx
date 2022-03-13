@@ -27,7 +27,7 @@ const dataProducts = {
   productData: [
     {
       id: 1,
-      title1:'perro',
+      title1: "perro",
       img: MegaPetPerro,
       img2: MegaPetPerro2,
       img3: MegaPetPerro3,
@@ -41,6 +41,9 @@ const dataProducts = {
       price: "220000 ",
       size: "15cm",
       material: "Bioplástico PLA",
+      category: "MegaPet",
+      popularidad:'3',
+
     },
     {
       id: 2,
@@ -57,6 +60,9 @@ const dataProducts = {
       price: "220000 ",
       size: "15cm",
       material: "Bioplástico PLA",
+      category: "MegaPet",
+      popularidad:'3',
+ 
     },
     {
       id: 3,
@@ -73,6 +79,8 @@ const dataProducts = {
       price: "170000",
       size: "15cm",
       material: "Bioplástico PLA",
+      category: "MegaPet",
+      popularidad:'3',
     },
     {
       id: 4,
@@ -89,6 +97,8 @@ const dataProducts = {
       price: "97000",
       size: "12cm",
       material: "Bioplástico PLA",
+      category: "MegaPet",
+      popularidad:'3',
     },
     {
       id: 5,
@@ -106,6 +116,8 @@ const dataProducts = {
       price: "125000",
       size: "15cm",
       material: "Bioplástico PLA",
+      category: "Retrato",
+      popularidad:'2',
     },
     {
       id: 6,
@@ -123,6 +135,8 @@ const dataProducts = {
       price: "125000",
       size: "15cm",
       material: "Bioplástico PLA",
+      category: "Retrato",
+      popularidad:'2',
     },
     {
       id: 7,
@@ -139,6 +153,8 @@ const dataProducts = {
       price: "110000",
       size: "14cm",
       material: "Resina y bioplástico PLA",
+      category: "MemoryPet",
+      popularidad:'2',
     },
     {
       id: 8,
@@ -155,6 +171,8 @@ const dataProducts = {
       price: "110000",
       size: "15cm",
       material: "Resina y bioplástico PLA",
+      category: "MemoryPet",
+      popularidad:'2',
     },
     {
       id: 9,
@@ -171,6 +189,8 @@ const dataProducts = {
       price: "96000",
       size: "16cm",
       material: "Resina y bioplástico PLA",
+      category: "MemoryPet",
+      popularidad:'3',
     },
     {
       id: 10,
@@ -187,6 +207,8 @@ const dataProducts = {
       price: "70000",
       size: "5cm",
       material: "Resina ",
+      category: "ChiquiPet",
+      popularidad:'3',
     },
     {
       id: 11,
@@ -203,6 +225,8 @@ const dataProducts = {
       price: "70000",
       size: "5cm",
       material: "Resina ",
+      category: "ChiquiPet",
+      popularidad:'3',
     },
     {
       id: 12,
@@ -219,6 +243,8 @@ const dataProducts = {
       price: "60000",
       size: "5cm",
       material: "Resina ",
+      category: "ChiquiPet",
+      popularidad:'2',
     },
     {
       id: 13,
@@ -234,6 +260,8 @@ const dataProducts = {
       price: "370000",
       size: "15cm",
       material: "Bioplástico PLA ",
+      category: "Combos",
+      popularidad:'2',
     },
     {
       id: 14,
@@ -251,6 +279,8 @@ const dataProducts = {
       price: "267000",
       size: "15cm",
       material: "Bioplástico PLA y Resina ",
+      category: "Combos",
+      popularidad:'2',
     },
     {
       id: 15,
@@ -267,6 +297,9 @@ const dataProducts = {
       price: "12000",
       size: "15cm",
       material: "Resina polimérica ",
+      category: "Otros",
+      popularidad:'1',
+
     },
   ],
 };

@@ -30,6 +30,7 @@ const CardTiendaPrueba = (props) => {
               <p className="cardTiendaParagraph">{props.description}</p>
             </div>
             <p className="cardTiendaPrice">Precio: ${props.price} COP</p>
+            
 
             <button className="btnVer" onClick={handleClick}>
               Ver Más

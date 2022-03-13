@@ -50,11 +50,11 @@ const CarouselHome = () => {
         loopFillGroupWithBlank={true}
         /*pagination={{
           clickable: true,
-        }}
+        }}*/
          autoplay={{
             delay: 3000,
             disableOnInteraction: false,
-          }}*/
+          }}
         navigation={true}
         modules={[Autoplay, Pagination, Navigation]}
         className="mySwiper"
