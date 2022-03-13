@@ -6,7 +6,7 @@ import TiendaContainer from '../components/tienda/TiendaContainer'
 const Tienda = () => {
   return (
     <div>
-      
+        <Navbar />
         <TiendaContainer />
   
     </div>

@@ -6,7 +6,7 @@ import ResumenCompraContainer from '../components/resumenCompra/ResumenCompraCon
 const ResumenCompra = () => {
   return (
     <div>
-       
+        <Navbar />
       <ResumenCompraContainer />
 
     </div>
