@@ -14,7 +14,7 @@ const Cotizacion = () => {
         andika3dcol@gmail.com. <br/><br/>
         <span className="whatsappParagraph">
         Conversa con nosotros vía whatsapp   
-        <a href="https://web.whatsapp.com/" target='_blank'><img src={WhatsappLogo} alt="whatsapp logo" className="whatsappImg"/></a>
+        <a href="https://api.whatsapp.com/send?phone=[57][3208458431]&text=Hola%20estoy%20interesado(a)%20en%20 conocer%20más%20acerca%20de%20sus%20productos" target="blank"><img src={WhatsappLogo} alt="whatsapp logo" className="whatsappImg"/></a>
         </span>
 
         <br/> Recuerda,

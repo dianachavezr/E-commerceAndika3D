@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import CardTiendaPrueba from "../cardTienda/CardTiendaPrueba";
+import CardTienda from "../cardTienda/CardTienda";
 import dataProducts from "../cardTienda/dataProducts";
 import "./tienda.css";
 
@@ -22,9 +22,20 @@ const TiendaContainer = () => {
   const [data1, setData1] = useState("");
 
   return (
+    
     <div className="tiendaContainer">
+      {/*BEGIN FILTERS*/}
       <div className="filtersContainer">
-        <div className=""></div>
+      <div className="searchBarContainer">
+          <input
+            type="text"
+            className="searchBarContainerInput"
+            placeholder="Buscar"
+            value={filter}
+            onChange={searchText.bind(this)}
+          />
+        </div>
+        <div className="btnFilterContainer">
         <button className="btnFilter" onClick={() => setData1("")}>
           Todos
         </button>
@@ -46,24 +57,16 @@ const TiendaContainer = () => {
         <button className="btnFilter" onClick={() => setData1("Otros")}>
           Otros
         </button>
-      
-
-        <div className="searchBarContainer">
-          <input
-            type="text"
-            className="searchBarContainerInput"
-            placeholder="Buscar"
-            value={filter}
-            onChange={searchText.bind(this)}
-          />
         </div>
-      </div>
+        </div>
+        {/*END FILTERS*/}
 
+    {/*BEGIN RESUMEN COMPRA TABLE*/}
       <div className="cardTiendaContainer">
         {data.map((item, index) => {
           if (item.category === data1 || data1 === "") {
             return (
-              <CardTiendaPrueba
+              <CardTienda
                 img={item.img}
                 img2={item.img2}
                 img3={item.img3}
@@ -74,14 +77,18 @@ const TiendaContainer = () => {
                 specifications={item.specifications}
                 price={item.price}
                 size={item.size}
+                price2={item.price2}
+                size2={item.size2}
                 material={item.material}
                 item={item}
                 key={index}
               />
+              
             );
           }
         })}
       </div>
+      {/*END RESUMEN COMPRA TABLE*/}
     </div>
   );
 };

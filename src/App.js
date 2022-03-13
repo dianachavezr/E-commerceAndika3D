@@ -8,6 +8,7 @@ import Quienes from "./pages/Quienes";
 import {CartProvider} from "react-use-cart"
 
 
+
 function App() {
   return (
     <div className="App">
@@ -20,6 +21,7 @@ function App() {
         <Route path="/quienes" element={<Quienes />} />
         <Route path="/tienda" element={<Tienda />} />
         <Route path="/carrito" element={<ResumenCompra />} />
+
   
       </Routes>
       </CartProvider>

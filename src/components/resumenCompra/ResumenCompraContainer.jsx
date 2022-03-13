@@ -17,7 +17,17 @@ const ResumenCompra = (props) => {
     removeItem,
     emptyCart,
   } = useCart();
+  const sendMessage = () => {
+    let msg = [];
 
+    for (let item of items) {
+      let textopedido = ` ${item.description4}(${(item.id, item.quantity)})`;
+      msg += textopedido;
+    }
+    window.open(` 
+ https://api.whatsapp.com/send?phone==[57][3196569316]&text=${"Hola me encantaron tus productos y estoy interesado(a) en los siguientes:  "}
+ ${msg} Precio total: $${cartTotal} `);
+  };
   if (isEmpty)
     return (
       <div className="emptyCarContainer">
@@ -59,8 +69,12 @@ const ResumenCompra = (props) => {
                   />
                 </td>
 
-                <td className="">{item.description}</td>
-                <td> ({item.quantity})</td>
+                <td className="resumenCompraTableText">
+                  {item.description4}
+                  <br />
+                  {item.size}
+                </td>
+                <td className="resumenCompraTableText"> ({item.quantity})</td>
                 <td className="resumenCompraTableIcon">
                   <img
                     src={Plus}
@@ -77,8 +91,10 @@ const ResumenCompra = (props) => {
                     }
                   />
                 </td>
-                <td className="">${item.price}</td>
-                <td className="">${item.price * item.quantity}</td>
+                <td className="resumenCompraTableText">${item.price}</td>
+                <td className="resumenCompraTableText">
+                  ${item.price * item.quantity}
+                </td>
               </tr>
             );
           })}
@@ -93,7 +109,10 @@ const ResumenCompra = (props) => {
           <button className="btnVer" onClick={() => emptyCart()}>
             Vaciar carrito
           </button>
-          <button className="btnAdd">Finalizar Compra</button>
+
+          <button className="btnEndBuy" onClick={sendMessage}>
+            Finalizar Compra
+          </button>
         </div>
       </div>
     </div>

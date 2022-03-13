@@ -4,17 +4,17 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  margin-top: 20vh;   
+  margin-top: 20vh;;
 }
 .emptyCarContainer {
-  background-color: rgba(255, 127, 48, 0.3);
+  background-color: rgba(196, 196, 196, 0.2);
   height: 45vh;
   width: 100vw;
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 50px;
-  margin-top: 12vh;   
+  margin-top: 12vh;
 }
 .emptyCarTitle {
   height: auto;
@@ -37,10 +37,11 @@
 
 .resumenCompraTableTitle {
   color: var(--blue);
+  font-size: 0.8rem;
 }
 .resumenCompraTableContainer th {
   border-bottom: 1px solid var(--gray);
-
+ 
   padding: 20px;
 }
 .resumenCompraTableContainer td {
@@ -51,24 +52,45 @@
   width: 20px;
   margin: 3px;
 }
+.resumenCompraTableText{
+  font-size: 0.8rem;
+}
 
 .resumenCompraEnd {
-   width: 50%; 
-   display: flex;
-   justify-content: center;
-   flex-wrap: wrap;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
   padding: 20px;
   box-shadow: 1px 1px 5px var(--gray);
   margin-bottom: 30px;
   margin: auto;
-
-
 }
 
 .resumenCompraEndTitle {
   color: var(--blue);
   padding-bottom: 30px;
 }
+.btnEndBuy{
+  border-radius: 50px;
+  padding: 0.8rem 3em;
+  background-color: var(--lightBlue);
+  border: none;
+  cursor: pointer;
+  box-shadow: 1px 1px 1px 1px var(--gray);
+  color: var(--white);
+  font-size: 0.6rem;
+  background-image: url(../../assets/whatsapp1.png);
+  background-size: 30px;
+  background-repeat: no-repeat;
+  background-position-x: 10px;
+  background-position-y: center;
+}
+
+.btnEndBuy:hover {
+  background-color: var(--orange);
+}
+
 @media (min-width: 768px) {
   .resumenCompraContainer {
     display: flex;
@@ -78,25 +100,36 @@
     overflow: scroll;
   }
   .emptyCarContainer {
-    background-color: rgba(255, 127, 48, 0.3);
     height: 68vh;
   }
   .resumenCompraTableContainer {
     width: 90%;
   }
-  .resumenCompraEnd {
-      width: 30%;
+  .resumenCompraTableTitle, .resumenCompraTableText {
+
+    font-size: 1rem;
   }
-
+  .resumenCompraEnd {
+    width: 30%;
+  }
+  .btnEndBuy{
+    font-size: 0.8rem;
+  }
+  
 }
-
 
 @media (min-width: 1024px) {
   .resumenCompraContainer {
     margin-top: 30vh;
-    
   }
-  .emptyCarContainer{
+  .resumenCompraTableContainer {
+    width: 75%;
+
+  }
+  .emptyCarContainer {
     margin-top: 18vh;
+  }
+  .btnEndBuy{
+    font-size:1rem;
   }
 }

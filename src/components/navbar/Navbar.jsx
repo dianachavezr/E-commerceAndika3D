@@ -7,16 +7,7 @@ import { NavLink } from "react-router-dom";
 import { useCart } from "react-use-cart";
 
 const Navbar = () => {
-  const {
-    isEmpty,
-    totalUniqueItems,
-    items,
-    totalItems,
-    cartTotal,
-    updateItemQuantity,
-    removeItem,
-    emptyCart,
-  } = useCart();
+  const { totalItems, cartTotal } = useCart();
 
   const [clicked, setClicked] = useState(false);
   console.log(clicked);
@@ -75,7 +66,6 @@ const Navbar = () => {
             </NavLink>
             <figcaption>
               <NavLink
-              
                 to="/carrito"
                 style={{ textDecoration: "none", color: "var(--black" }}
               >
@@ -89,11 +79,13 @@ const Navbar = () => {
         </div>
         {/* To make resume box appear on hover*/}
         <figure className=" image fade">
-          <NavLink 
+          <NavLink
             style={({ isActive }) => ({
-              background: isActive ? 'var(--orange)' : 'transparent',
-            })}to="/carrito">
-            <img  className="navBag" src={Bag} />
+              background: isActive ? "var(--orange)" : "transparent",
+            })}
+            to="/carrito"
+          >
+            <img className="navBag" src={Bag} />
           </NavLink>
           <figcaption>
             <NavLink

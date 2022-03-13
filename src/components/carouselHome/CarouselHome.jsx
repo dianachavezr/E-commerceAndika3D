@@ -12,16 +12,10 @@ import { Autoplay, Pagination, Navigation } from "swiper";
 
 import "./carouselHome.css";
 import Keycup from "../../assets/keycup1.png";
-import DogTonge from "../../assets/dogTonge.png";
-import DogCombo from "../../assets/dogCombo.png";
-import MegaPetPerro from "../../assets/megapetPerro/megapetPerro8.png";
-import MegaPetGato from "../../assets/megapetGato/megapetGato13.png";
 import MegaPetConejo from "../../assets/megapetConejo/megapetConejo3.jpg";
 import Retrato3dPerro from "../../assets/retrato3dPerro/retratoPerro3.jpg";
 import MemoryPetPerro from "../../assets/memoryPetDog/memoryPet1.jpg";
-import ChiquiPetPerro from "../../assets/chiquipetPerro/chiquiPetPerro3.jpg";
 import ChiquiPetConejo from "../../assets/chiquipetConejo/chiquiPetConejo1.jpg";
-import ComboPerro1 from "../../assets/combo1Perro/comboPerro1.jpg";
 import ComboPerro5 from "../../assets/combo5Perro/comoPerro5.1.jpg";
 
 const CarouselHome = () => {
@@ -48,13 +42,11 @@ const CarouselHome = () => {
         slidesPerGroup={1}
         loop={true}
         loopFillGroupWithBlank={true}
-        /*pagination={{
-          clickable: true,
-        }}*/
-         autoplay={{
-            delay: 3000,
-            disableOnInteraction: false,
-          }}
+ 
+        autoplay={{
+          delay: 3000,
+          disableOnInteraction: false,
+        }}
         navigation={true}
         modules={[Autoplay, Pagination, Navigation]}
         className="mySwiper"
@@ -164,7 +156,6 @@ const CarouselHome = () => {
             </NavLink>
           </div>
         </SwiperSlide>
-       
       </Swiper>
     </div>
   );

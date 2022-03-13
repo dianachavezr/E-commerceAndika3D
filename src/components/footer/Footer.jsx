@@ -10,21 +10,21 @@ const Footer = () => {
       <div className="footerRedes">
         <h5 className="footerTitle">Nuestras Redes</h5>
         <div className="footerRedesImages">
-          <a href="https://web.whatsapp.com/" target="_blank">
+          <a href="https://www.facebook.com/andika3D" target="_blank">
             <img
               src={FacebookLogo}
               alt="facebook logo"
               className="footerRedesImg"
             />
           </a>
-          <a href="https://www.tiktok.com/" target="_blank">
+          <a href="https://www.tiktok.com/@andika3d" target="_blank">
             <img
               src={TikTokkLogo}
               alt="tiktok logo"
               className="footerRedesImg"
             />
           </a>
-          <a href="https://www.instagram.com/" target="_blank">
+          <a href="https://www.instagram.com/andika3d/" target="_blank">
             <img
               src={InstagramLogo}
               alt="instagram logo"
