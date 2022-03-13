@@ -54,3 +54,6 @@ The project has been divided by 4 main pages and the different components have b
 This has been such and amazing project wich gaves me the opportunity to explore in deep Reactjs programm and also gave me the chance to tide up my skills about responsive design and laptop design, even using only CSS, of course I found a lot if information and help while surfed on the internet and I feel very proud with the results.
 
 Thanks to all people who have helped my during this process, and thanks to Andika 3D for giving me the opportunitty of creating their Ecommerce.
+
+**GIT PAGES DEPLOY:** https://dianachavezr.github.io/E-commerceAndika3D/
+
