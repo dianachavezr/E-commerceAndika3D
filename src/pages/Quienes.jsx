@@ -7,7 +7,7 @@ import QuienesSomos from "../components/quienesSomos/QuienesSomos";
 const Quienes = () => {
   return (
     <div>
-        <Navbar />
+  
       <QuienesSomos />
       <NuestraEmpresa />
 

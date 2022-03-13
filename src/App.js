@@ -6,6 +6,7 @@ import Tienda from "./pages/Tienda";
 import ResumenCompra from "./pages/ResumenCompra"
 import Quienes from "./pages/Quienes";
 import {CartProvider} from "react-use-cart"
+import Navbar from "./components/navbar/Navbar";
 
 
 
@@ -14,8 +15,9 @@ function App() {
     <div className="App">
 
       <>
+      <Navbar />
       <CartProvider>
-  
+    
       <Routes>        
         <Route exact path="/" element={<Home />} />
         <Route path="/quienes" element={<Quienes />} />
