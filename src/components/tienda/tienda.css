@@ -24,7 +24,7 @@
 
 .btnFilter {
   border-radius: 50px;
-  padding: 0.5rem 5em;
+  padding: 0.5rem 5rem;
   background-color: var(--blue);
   border: none;
   cursor: pointer;
@@ -81,7 +81,7 @@
   }
   .btnFilter {
     font-size: 0.8rem;
-    padding: 0.5rem 2.5em;
+    padding: 0.5rem 2.5rem;
   }
   .searchBarContainerInput {
     width: 300px;

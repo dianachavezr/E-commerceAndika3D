@@ -41,7 +41,7 @@
 }
 .btnAdd {
   border-radius: 50px;
-  padding: 0.5rem 5em;
+  padding: 0.5rem 5rem;
   background-color: var(--lightBlue);
   border: none;
   cursor: pointer;

@@ -11,15 +11,17 @@ import Navbar from "./components/navbar/Navbar";
 
 
 function App() {
+  
+
   return (
     <div className="App">
 
       <>
-      
+      <Navbar />    
       <CartProvider>
     
       <Routes>        
-        <Route exact path="/" element={<Home />} />
+        <Route exact path="/inicio" element={<Home />} />
         <Route path="/quienes" element={<Quienes />} />
         <Route path="/tienda" element={<Tienda />} />
         <Route path="/carrito" element={<ResumenCompra />} />

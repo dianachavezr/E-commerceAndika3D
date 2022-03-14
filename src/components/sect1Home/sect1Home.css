@@ -4,12 +4,12 @@
   display: block;
   justify-content: center;
   align-items: center;
-  margin-top: 14vh;
+  margin-top: 9rem;
 }
 
 .btnIrtienda {
   border-radius: 50px;
-  padding: 0.7em 5em;
+  padding: 0.7rem 5rem;
   background-color: var(--orange);
   border: none;
   cursor: pointer;
@@ -62,7 +62,6 @@
   .sect1Home {
     display: flex;
     padding: 10px 30px;
-    margin-top: 13vh;
   }
   .sect1HomeLeft,
   .sect1HomeRight {
@@ -73,11 +72,6 @@
   }
 }
 @media (min-width: 1024px) {
-  .sect1Home {
-
-    margin-top: 15vh;
-  }
-   
   .btnIrtienda {
     font-size: 1.3rem;
   }
@@ -96,15 +90,8 @@
   .sect1HomeLeftTitle {
     font-size: 2rem;
   }
-  
+
   .sect1HomeLeftParagraph {
     font-size: 3rem;
-  }
-}
-
-@media (min-width: 1200px) {
-  .sect1Home {
-
-    margin-top: 20vh;
   }
 }
