@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/E-commerceAndika3D/static/css/main.1627fc1d.css",
-    "main.js": "/E-commerceAndika3D/static/js/main.31cdfe79.js",
+    "main.css": "/E-commerceAndika3D/static/css/main.91fc8f96.css",
+    "main.js": "/E-commerceAndika3D/static/js/main.dbfc36ba.js",
     "static/js/787.af5a163d.chunk.js": "/E-commerceAndika3D/static/js/787.af5a163d.chunk.js",
     "static/media/memoryPet1.jpg": "/E-commerceAndika3D/static/media/memoryPet1.5edf901646c6b72c019e.jpg",
     "static/media/megapetConejo5.jpg": "/E-commerceAndika3D/static/media/megapetConejo5.57543a0a7a0a15a0888e.jpg",
@@ -43,12 +43,12 @@
     "static/media/delete.png": "/E-commerceAndika3D/static/media/delete.20409b47bdffec412281.png",
     "static/media/Logo.svg": "/E-commerceAndika3D/static/media/Logo.e4e2044f5d23ffe8eb66c7d8938f0890.svg",
     "index.html": "/E-commerceAndika3D/index.html",
-    "main.1627fc1d.css.map": "/E-commerceAndika3D/static/css/main.1627fc1d.css.map",
-    "main.31cdfe79.js.map": "/E-commerceAndika3D/static/js/main.31cdfe79.js.map",
+    "main.91fc8f96.css.map": "/E-commerceAndika3D/static/css/main.91fc8f96.css.map",
+    "main.dbfc36ba.js.map": "/E-commerceAndika3D/static/js/main.dbfc36ba.js.map",
     "787.af5a163d.chunk.js.map": "/E-commerceAndika3D/static/js/787.af5a163d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1627fc1d.css",
-    "static/js/main.31cdfe79.js"
+    "static/css/main.91fc8f96.css",
+    "static/js/main.dbfc36ba.js"
   ]
 }
