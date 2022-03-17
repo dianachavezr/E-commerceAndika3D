@@ -14,7 +14,7 @@ import "./carouselHome.css";
 import Keycup from "../../assets/keycup1.png";
 import MegaPetConejo from "../../assets/megapetConejo/megapetConejo3.jpg";
 import Retrato3dPerro from "../../assets/retrato3dPerro/retratoPerro3.jpg";
-import MemoryPetPerro from "../../assets/memoryPetDog/memoryPet1.jpg";
+import MemoryPetPerro from "../../assets/memoryPetDog/memoryPet2.png";
 import ChiquiPetConejo from "../../assets/chiquipetConejo/chiquiPetConejo1.jpg";
 import ComboPerro5 from "../../assets/combo5Perro/comoPerro5.1.jpg";
 

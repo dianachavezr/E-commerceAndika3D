@@ -14,7 +14,7 @@ import Retrato3dPerro from "../../assets/retrato3dPerro/retratoPerro8.jpg";
 import Retrato3dPerro2 from "../../assets/retrato3dPerro/retratoPerro5.jpg";
 import Retrato3dPerro3 from "../../assets/retrato3dPerro/retratoPerro3.jpg";
 import MemoryPetPerro from "../../assets/memoryPetDog/memoryPet2.png";
-import MemoryPetPerro2 from "../../assets/memoryPetDog/memoryPet1.jpg";
+import MemoryPetPerro2 from "../../assets/memoryPetDog/memoryPet2.png";
 import ChiquiPetPerro from "../../assets/chiquipetPerro/chiquiPetPerro3.jpg";
 import ChiquiPetPerro2 from "../../assets/chiquipetPerro/chiquiPetPerro2.jpg";
 import ChiquiPetConejo from "../../assets/chiquipetConejo/chiquiPetConejo1.jpg";

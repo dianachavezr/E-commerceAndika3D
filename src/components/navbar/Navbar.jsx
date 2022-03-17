@@ -31,7 +31,7 @@ const Navbar = () => {
             style={({ isActive }) => ({
               color: isActive ? "var(--orange)" : "var(--black)",
             })}
-            to="/inicio"
+            to="/"
           >
             Inicio
           </NavLink>

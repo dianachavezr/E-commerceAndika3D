@@ -15,7 +15,6 @@ const Home = () => {
       <Sect1Home />
       <CardsHome />
       <CarouselHome />
-
       <Cotizacion />
  
     </>
