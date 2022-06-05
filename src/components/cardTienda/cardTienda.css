@@ -21,16 +21,14 @@
 .cardTiendaTitle {
   color: var(--blue);
 }
-.cardTiendaImgBox{
-  background-color: rgba( 196, 196, 196, 0.2);
+.cardTiendaImgBox {
+  background-color: rgba(196, 196, 196, 0.2);
   box-shadow: 1px 1px 5px -1px var(--gray);
   border-radius: 10px;
   padding: 20px;
- 
 }
 .cardTiendaParagraphBox {
   padding: 20px;
-
 }
 .cardTiendaParagraph {
   font-size: 0.8rem;
@@ -75,7 +73,7 @@
 .cardTienda2ImgBox {
   width: 50%;
   margin: auto;
-  background-color: rgba( 196, 196, 196, 0.2);
+  background-color: rgba(196, 196, 196, 0.2);
   box-shadow: 1px 1px 5px -1px var(--gray);
   border-radius: 10px;
   padding: 20px;
