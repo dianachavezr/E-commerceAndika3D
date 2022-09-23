@@ -6,7 +6,7 @@ Andika 3D logo
 
 Andika 3D was set up in 2020 during due to pandemic situation,  and as part of training process with Bootcam Prográmate - Educamás we had the goal of creating an Ecommerce and give it for free as a contribution to of the companies that are new and still growing, in order to make their business more profitable and interesting.
 
-**DEPLOY PAGE:** [https://e-commerceandika3d.netlify.app/]
+**DEPLOY PAGE:** https://e-commerceandika3d.netlify.app/
 
 **Some Pictures of the web page:**
 
