@@ -10,7 +10,7 @@ const Footer = () => {
       <div className="footerRedes">
         <h5 className="footerTitle">Nuestras Redes</h5>
         <div className="footerRedesImages">
-          <a href="https://www.facebook.com/andika3D" target="_blank">
+          <a href="https://www.facebook.com/profile.php?id=100083570172316" target="_blank">
             <img
               src={FacebookLogo}
               alt="facebook logo"

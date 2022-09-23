@@ -22,7 +22,7 @@ const Navbar = () => {
         <div className="navLogo">
           <NavLink to="/">
             {" "}
-            <img src={Logo} />
+            <img src={Logo} alt="logo" />
           </NavLink>
         </div>
 
@@ -85,7 +85,7 @@ const Navbar = () => {
             })}
             to="/carrito"
           >
-            <img className="navBag" src={Bag} />
+            <img className="navBag" src={Bag} alt="bag" />
           </NavLink>
           <figcaption>
             <NavLink

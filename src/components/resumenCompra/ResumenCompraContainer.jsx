@@ -21,18 +21,18 @@ const ResumenCompra = (props) => {
     let msg = [];
 
     for (let item of items) {
-      let textopedido = ` ${item.description4}(${(item.id, item.quantity)})`;
+      let textopedido = `${item.description4}(${(item.id, item.quantity)})`;
       msg += textopedido;
     }
     window.open(` 
- https://api.whatsapp.com/send?phone==[57][3196569316]&text=${"Hola me encantaron tus productos y estoy interesado(a) en los siguientes:  "}
- ${msg} Precio total: $${cartTotal} `);
+ https://api.whatsapp.com/send?phone==[57]3196569316]&text=${"Hola me encantaron tus productos y estoy interesado(a) en los siguientes: "}
+ ${ msg} Precio total: $${cartTotal} COP `);
   };
   if (isEmpty)
     return (
       <div className="emptyCarContainer">
-        <h3 className="emptyCarTitle">Carrito vacio</h3>
-        <img className="emptyCarImg" src={Logo} />
+        <h3 className="emptyCarTitle">Carrito vacio...</h3>
+        <img className="emptyCarImg" src={Logo} alt="logo" />
       </div>
     );
   return (
@@ -57,13 +57,14 @@ const ResumenCompra = (props) => {
                     src={Cancel}
                     className=""
                     onClick={() => removeItem(item.id)}
+                    alt="cancel"
                   />
                 </td>
 
                 <td className="">
                   <img
                     src={item.img}
-                    alt=""
+                    alt="item img"
                     style={{ height: "6rem" }}
                     className=""
                   />
@@ -82,13 +83,16 @@ const ResumenCompra = (props) => {
                     onClick={() =>
                       updateItemQuantity(item.id, item.quantity + 1)
                     }
+                    alt="plus"
                   />
                   <img
                     src={Minus}
                     className=""
                     onClick={() =>
                       updateItemQuantity(item.id, item.quantity - 1)
+                     
                     }
+                    alt="minus"
                   />
                 </td>
                 <td className="resumenCompraTableText">${item.price}</td>

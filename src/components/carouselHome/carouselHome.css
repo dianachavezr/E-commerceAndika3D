@@ -20,7 +20,6 @@
   width: 100%;
   box-shadow: 1px 1px 1px 1px var(--gray);
   border-radius: 10px;
-
   padding: 20px;
   margin: auto;
 }
@@ -48,7 +47,7 @@
 .swiper-slide img {
   display: block;
   width: 100%;
-  height: 100%;
+  height: auto;
   object-fit: cover;
   margin: auto;
 }
@@ -57,12 +56,12 @@
   padding: 20px;
   border-radius: 10px;
   margin-bottom: 30px;
-  background-color: rgba( 196, 196, 196, 0.2);
+  background-color: rgba(196, 196, 196, 0.2);
   box-shadow: 1px 1px 5px -1px var(--gray);
-
 }
 .slideImgBox img {
   width: 70%;
+  height: auto;
 }
 
 .slideTitle {
@@ -83,7 +82,7 @@
   cursor: pointer;
   box-shadow: 1px 1px 1px 1px var(--gray);
   color: var(--white);
-  font-size: 0.6rem;
+  font-size: 0.8rem;
   margin-bottom: 20px;
 }
 
@@ -95,6 +94,10 @@
   .caroulselHomeContainer {
     padding: 20px;
   }
+
+  .slideContainer {
+    padding: 0 10px;
+  }
   .swiper-slide {
     width: 100px;
     padding: 20px;
@@ -103,7 +106,7 @@
     padding: 15px;
   }
   .btnVer {
-    font-size: 0.8rem;
+    font-size: 0.6rem;
   }
 }
 
@@ -124,6 +127,9 @@
     height: 100%;
   }
   .slideParagraphBox {
-    padding: 25px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }

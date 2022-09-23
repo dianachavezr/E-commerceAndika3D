@@ -6,6 +6,7 @@
   box-shadow: 1px 1px 1px 1px var(--gray);
   margin: auto;
   background: var(--white);
+  min-height: 580px;
 }
 
 .cardTiendaImg {
@@ -101,6 +102,7 @@ span {
 @media (min-width: 768px) {
   .cardTienda {
     width: 350px;
+    min-height: 620px;
   }
   .cardTienda2 {
     width: 700px;

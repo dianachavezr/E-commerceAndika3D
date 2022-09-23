@@ -22,7 +22,7 @@ const CardTienda = (props) => {
         <div>
           <div className="cardTienda">
             <div className="cardTiendaImgBox">
-              <img src={props.img} alt="" className="cardTiendaImg" />
+              <img src={props.img} alt="img" className="cardTiendaImg" />
             </div>
             <h3 className="cardTiendaTitle">{props.title}</h3>
             <div className="cardTiendaParagraphBox">
@@ -46,7 +46,7 @@ const CardTienda = (props) => {
             <h3 className="cardTienda2Title">{props.title}</h3>
             <div className="cardTienda2Box">
               <div className="cardTienda2ImgBox">
-                <img src={props.img2} alt="" className="cardTienda2Img" />
+                <img src={props.img2} alt="img" className="cardTienda2Img" />
               </div>
 
               <div className="cardTienda2ParagraphBox">
@@ -87,7 +87,7 @@ const CardTienda = (props) => {
                 </p>
               </div>
               <div className="cardTienda2ImgBox">
-                <img src={props.img3} alt="" className="cardTienda2Img" />
+                <img src={props.img3} alt="img box" className="cardTienda2Img" />
               </div>
             </div>
             <div className="cardTienda2Buttons">

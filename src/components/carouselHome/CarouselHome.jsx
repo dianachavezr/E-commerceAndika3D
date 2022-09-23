@@ -54,7 +54,7 @@ const CarouselHome = () => {
         <SwiperSlide>
           <div className="slideContainer">
             <div className="slideImgBox">
-              <img src={MegaPetConejo} alt="" className="slideImgCards" />
+              <img src={MegaPetConejo} alt="Megapet Conejo" className="slideImgCards" />
             </div>
             <h3 className="slideTitle">MegaPets</h3>
             <div className="slideParagraphBox">
@@ -72,7 +72,7 @@ const CarouselHome = () => {
         <SwiperSlide>
           <div className="slideContainer">
             <div className="slideImgBox">
-              <img src={Retrato3dPerro} alt="" className="slideImgCards" />
+              <img src={Retrato3dPerro} alt="Retrato Perro" className="slideImgCards" />
             </div>
             <h3 className="slideTitle">Retratos 3D</h3>
             <div className="slideParagraphBox">
@@ -90,7 +90,7 @@ const CarouselHome = () => {
         <SwiperSlide>
           <div className="slideContainer">
             <div className="slideImgBox">
-              <img src={MemoryPetPerro} alt="" className="slideImgCards" />
+              <img src={MemoryPetPerro} alt="Memory Pet" className="slideImgCards" />
             </div>
             <h3 className="slideTitle">Memory Pets</h3>
             <div className="slideParagraphBox">
@@ -107,7 +107,7 @@ const CarouselHome = () => {
         <SwiperSlide>
           <div className="slideContainer">
             <div className="slideImgBox">
-              <img src={ChiquiPetConejo} alt="" className="slideImgCards" />
+              <img src={ChiquiPetConejo} alt="Chiquipet" className="slideImgCards" />
             </div>
             <h3 className="slideTitle">Chiqui Pets</h3>
             <div className="slideParagraphBox">
@@ -124,7 +124,7 @@ const CarouselHome = () => {
         <SwiperSlide>
           <div className="slideContainer">
             <div className="slideImgBox">
-              <img src={Keycup} alt="" className="slideImgCards" />
+              <img src={Keycup} alt="KeyCup" className="slideImgCards" />
             </div>
             <h3 className="slideTitle">Keycaps</h3>
             <div className="slideParagraphBox">
@@ -143,7 +143,7 @@ const CarouselHome = () => {
         <SwiperSlide>
           <div className="slideContainer">
             <div className="slideImgBox">
-              <img src={ComboPerro5} alt="" className="slideImgCards" />
+              <img src={ComboPerro5} alt="Combo" className="slideImgCards" />
             </div>
             <h3 className="slideTitle">Combos</h3>
             <div className="slideParagraphBox">
