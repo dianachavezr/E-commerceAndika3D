@@ -6,6 +6,7 @@ Andika 3D logo
 
 Andika 3D was set up in 2020 during due to pandemic situation,  and as part of training process with Bootcam Prográmate - Educamás we had the goal of creating an Ecommerce and give it for free as a contribution to of the companies that are new and still growing, in order to make their business more profitable and interesting.
 
+**DEPLOY PAGE:** [https://e-commerceandika3d.netlify.app/]
 
 **Some Pictures of the web page:**
 
@@ -55,5 +56,5 @@ This has been such and amazing project wich gaves me the opportunity to explore 
 
 Thanks to all people who have helped my during this process, and thanks to Andika 3D for giving me the opportunitty of creating their Ecommerce.
 
-**GIT PAGES DEPLOY:** https://dianachavezr.github.io/E-commerceAndika3D/
+
 
